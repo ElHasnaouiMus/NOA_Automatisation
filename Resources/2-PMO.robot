@@ -28,3 +28,4 @@ Remplir les Champs Mandatory Qualification
 
 Elements declencheurs Qualification
     Selectionner le nom de Chef de projet
+    Fermer l'alerte : Le CP selectioné a 5 demande non traités

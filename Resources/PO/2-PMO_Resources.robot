@@ -42,7 +42,6 @@ Programme à créer
 
 Selectionner le nom de Chef de projet
     Select From List By Label   xpath=//select[@id='cp_user_id']    GOULEAU Marie-France
-    Fermer l'alerte : Le CP selectioné a 5 demande non traités
     
 Fermer l'alerte : Le CP selectioné a 5 demande non traités
     ${isvisible} =  Run Keyword And Return Status    Page Should Contain Element   xpath=//div[@id='myCPModal']//button[@class='btn btn-default']

@@ -1,7 +1,7 @@
 *** Variables ***
 
 ${BROWSER}	chrome
-${WEBSITE_URL}	http://10.241.104.125/public/dev.php
+${WEBSITE_URL}	http://10.241.104.106/public/dev.php
 
 #################  Variables Acces  #################
 ${USERNAME_INPUT}	xpath=//input[@name='username']
