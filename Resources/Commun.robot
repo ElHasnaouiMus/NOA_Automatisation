@@ -15,7 +15,7 @@ Acceder a La page de login
     Go To	${WEBSITE_URL}
 
 Clicker sur le button Connexion
-    Click Element   xpath=//input[
+    Click Element   xpath=//input[@name='submit']
 
 Fermer PHPDebugBar
     ${isvisible} =  Run Keyword And Return Status    Element Should Be Visible   xpath=//div[@class='phpdebugbar-header-right']/a[1]
