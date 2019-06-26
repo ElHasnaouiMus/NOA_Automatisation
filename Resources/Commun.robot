@@ -65,7 +65,8 @@ Verfier le status 'cloturé'
     
 Motif de refus
     Wait Until Element Is Visible    xpath=//textarea[@id='labelComment']    
-    Wait Until Element Is Enabled    xpath=//textarea[@id='labelComment']    
+    Wait Until Element Is Enabled    xpath=//textarea[@id='labelComment']
+    Set Focus To Element    xpath=//textarea[@id='labelComment']
     Input Text    xpath=//textarea[@id='labelComment']    Commentaire
 
 Enregistrer motif de refus
