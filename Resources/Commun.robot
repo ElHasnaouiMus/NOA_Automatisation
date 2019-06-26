@@ -4,8 +4,12 @@ Resource  Variables.robot
 
 *** Keywords ***
 Begin Web Test
-    Open Browser  about:blank  ${BROWSER}
-    maximize browser window
+    ${chrome options} =     Evaluate    sys.modules['selenium.webdriver'].ChromeOptions()    sys, selenium.webdriver
+    Call Method    ${chrome options}   add_argument    headless
+    Call Method    ${chrome options}   add_argument    no-sandbox
+    Call Method    ${chrome options}   add_argument    disable-dev-shm-usage
+    Create Webdriver    Chrome    chrome_options=${chrome options}
+    Set Window Size    1366    768
 
 Acceder a La page de login
     Go To	${WEBSITE_URL}
