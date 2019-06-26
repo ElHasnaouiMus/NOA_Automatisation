@@ -1,6 +1,6 @@
 *** Settings ***
 Library  SeleniumLibrary
-Resource    ../variables.robot
+Resource    ../Variables.robot
 
 *** Keywords ***
 Acceder avec le profil Chef de Projet
