@@ -87,8 +87,8 @@ Charge Prév
     Input Text    xpath=//input[@id='projected_charge']    2100
 
 #Développement
-Fin Dév Prév
-    Execute JavaScript  document.getElementById('projected_dev_end_date').value='10/05/2019'
+Début Recette Prév
+    Execute JavaScript  document.getElementById('projected_recipe_start_date').value='10/05/2019'
     
 Charge réelle
     Scroll Element Into View    xpath=//input[@id='realy_charge']
@@ -98,8 +98,8 @@ Version de l'application
     Scroll Element Into View    xpath=//input[@id='application_version']
     Input Text    xpath=//input[@id='application_version']    2.0
     
-Fin Dév Réel
-    Execute JavaScript  document.getElementById('realy_dev_end_date').value='11/05/2019'
+Début Recette Réelle
+    Execute JavaScript  document.getElementById('realy_recipe_start_date').value='11/05/2019'
     
 #Recette
 Date de MEP réelle
@@ -109,14 +109,7 @@ Date de MEP réelle
 
 #Analyse
 Début Param Prév
-    Execute JavaScript  document.getElementById('projected_setting_start_date').value='10/05/2019'
+    Execute JavaScript  document.getElementById('projected_setting_start_date').value='09/05/2019'
     
 Début Param Réelle
-    Execute JavaScript  document.getElementById('realy_setting_start_date').value='11/05/2019'
-
-#Paramétrage
-Fin Param Prév
-    Execute JavaScript  document.getElementById('projected_setting_end_date').value='11/05/2019'
-
-Fin Param Réelle
-    Execute JavaScript  document.getElementById('realy_setting_end_date').value='12/05/2019'
+    Execute JavaScript  document.getElementById('realy_setting_start_date').value='10/05/2019'
