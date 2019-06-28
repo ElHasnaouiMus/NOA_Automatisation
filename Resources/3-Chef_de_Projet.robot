@@ -68,15 +68,15 @@ Elements declencheurs Analyse : BAU
     Début Dév Réel
 
 Remplir les Champs Mandatory Developpement : BAU
-    Fin Dév Prév
+    Début Recette Prév
     Version de l'application
     Budget
     Charge réelle
     
 Elements declencheurs Developpement : BAU
     Budget
-	Planning
-    Fin Dév Réel
+    Planning
+    Début Recette Réelle
 
 Remplir les Champs Mandatory Recette : BAU et Paramétrage
     Date de MEP réelle
@@ -99,14 +99,14 @@ Elements declencheurs Analyse : Paramétrage
     Début Param Réelle
     
 Remplir les Champs Mandatory Paramétrage : Paramétrage
-    Fin Param Prév
-    Planning
+    Début Recette Prév
     Budget
     Charge réelle
     
 Elements declencheurs Paramétrage : Paramétrage
-	Planning
-    Fin Param Réelle
+    Budget
+    Planning
+    Début Recette Réelle
     
 ############################################ Processus : Accompagnement ##################################
 
@@ -119,4 +119,6 @@ Remplir les Champs Mandatory Accompagnement : Analyse
     Budget
     Charge Prév
     Charge réelle
+
+
 
